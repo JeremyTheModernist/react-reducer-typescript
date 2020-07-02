@@ -51,7 +51,7 @@ const reducer = (state: IState, action: IAction) => {
 };
 
 // have to create a ContextShape for the values we pass into Store.Provider value
-// you can begin with an empty object and assert a type of ContextShape
+// you can begin with an empty object and assert a type of ContextShapea
 // by doing this the Store.Provider will now expect this type for it's value property.
 // this will also ensure no errors are thrown when you useStore in other components
 export const Store = createContext({} as ContextShape);
